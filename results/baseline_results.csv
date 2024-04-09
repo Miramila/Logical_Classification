@@ -1,0 +1,13 @@
+model,metric,value
+random,f1,0.5172413793103449
+random,accuracy,0.5172413793103449
+random,precision,0.5172413793103449
+random,recall,0.5172413793103449
+most_frequent,f1,0.0
+most_frequent,accuracy,0.5
+most_frequent,precision,0.0
+most_frequent,recall,0.0
+logistic_regression,f1,0.30917874396135264
+logistic_regression,accuracy,0.506896551724138
+logistic_regression,precision,0.5161290322580645
+logistic_regression,recall,0.2206896551724138
