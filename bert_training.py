@@ -107,4 +107,9 @@ trainer = Trainer(
 trainer.train()
 trainer.evaluate()
 test_preds = trainer.predict(tokenized_datasets['test'])
-print(test_preds.metrics)
+
+# compare to the answer
+test_preds = np.argmax(test_preds.predictions, axis=1)
+test_answer = pd.read_csv('./dataset/test_answer.csv')['Label']
+precision, recall, f1, _ = precision_recall_fscore_support(test_answer, test_preds, average='binary')
+print(f"precision: {precision}, recall: {recall}, f1: {f1}")
