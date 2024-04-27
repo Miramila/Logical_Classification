@@ -1,0 +1,30 @@
+Please note that complex logical assertions such as these often require a deep understanding of human logic or additional context to be properly modeled.
+?- experiment_motivation(WhichGroup).
+?- guarantee_statement(X).
+?- guarantee_statement(Who).
+?- guarantee_statement(Who).
+Query is ?- guarantee_statement(Who).
+% End of Prolog program.
+?- cantonesewho_likes_neither_chili_nor_sweet(X).
+?- dislike(chili, Who).
+This query would verify if our assumption (i.e., "some Cantonese like neither chili nor sweets") guarantees that there is at least one southern Chinese who dislikes chili, based on our logical model.
+?- cantonese_who_dislikes_chili(X), dislike_chili(X).
+?- not_all_college_graduates(Who).
+With a fact `heavierBeforeLoss(middle_aged_group, young_group)`, the query `?- lighterBeforeLoss(young_group, middle_aged_group)` is used to validate that Participants in young group weighed less than those in middle-aged group before losing weight.
+Please adjust your data accordingly.
+?- finance_other_projects(big_project, bank, other_projects, faster_recovery).
+?- does_not_explain_phenomenon.
+If "John" is indeed the person who spends more on houses and is a rural resident, Prolog should return X = john. This would mean the context statement about purchasing power is true.
+?- guarantee_statement(Who).
+?- guarantee_statement(Who).
+?- person(Who).
+?- guarantee_statement(sam).
+With the above facts (sam dislikes chili, does not like peppers and sweets) the query will return `Who = sam.` indicating sam is the one who verifies the statement.
+?- answer(What).
+?- compare({a,d}, {b,c}).
+?- only_one_true.
+?- less_productive_employee(Who).
+?- descendant_of_westernized_black_african_gambian(Who).
+?- cause_of_failure(Who).
+?- american_inventor(Who).
+?- guarantee_argument(Who).
